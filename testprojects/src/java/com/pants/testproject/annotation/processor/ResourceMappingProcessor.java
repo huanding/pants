@@ -39,7 +39,7 @@ public class ResourceMappingProcessor extends AbstractProcessor {
   private ProcessingEnvironment processingEnvironment = null;
   private Elements elementUtils;
 
-    private static final class Resource {
+  private static final class Resource {
     private final FileObject resource;
     private final Writer writer;
 
