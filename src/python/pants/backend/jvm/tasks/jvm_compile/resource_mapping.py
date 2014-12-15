@@ -11,7 +11,6 @@ import os
 import re
 
 class ResourceMapping(object):
-
   RESOURCES_BY_CLASS_NAME_RE = re.compile(r'^(?P<classname>[\w+.\$]+) -> (?P<path>.+)$')
 
   def __init__(self, classes_dir):
