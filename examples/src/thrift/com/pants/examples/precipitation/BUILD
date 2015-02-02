@@ -9,10 +9,3 @@ java_thrift_library(name='precipitation-java',
     'examples/src/thrift/com/pants/examples/distance:distance-java',
   ],
 )
-
-python_thrift_library(name='precipitation-python',
-  sources=['precipitation.thrift'],
-  dependencies=[
-    'examples/src/thrift/com/pants/examples/distance:distance-python',
-  ],
-)
